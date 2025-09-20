@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Nav Bar Section.*/
+
+header {
+    background-color: #1e3a8a;
+    padding: 20px 0;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 20px;
+    font-weight: 600;
+    color: #e0f2fe;
+}
+
+nav a:hover {
+    color: lemonchiffon;
+    text-decoration: underline;
+}
+
+/* Hero Section*/
+.Hero {
+    background: lightcyan;
+    color: black;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid lightslategray;
+}
+
+.Hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.Hero h2 span {
+    color: black;
+}
+
+
+/* Buttons*/
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.btn {
+    background: rgb(250, 205, 250);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    scale: 0.9;
+    background: lavender;
+}
+
+/*Sections*/
+
+.section {
+    padding: 60px 20px;
+    font-weight: thick;
+    font-style: italic;
+}
+
+.section h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #1e40af;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+/* Skills Section*/
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.skill {
+    background: darkseagreen;
+    font-weight: 30px;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    min-width: 150px;
+    text-align: center;
+    border: 1px solid navy;
+}
+
+
+/* projects grid*/
+
+.projects-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.project-card {
+    background: #e0f2fe;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.project-card h4 {
+    color: #0eb735;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.project-img {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+/* Contact Section*/
+
+#contactSection {
+    width: 90%;
+    margin: auto;
+    min-height: 150px;
+    border-radius: 15px;
+    background: #e0f2fe;
+    padding: 20px;
+    gap: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.contactname {
+    text-decoration: underline;
+}
+
+.contactDiv1 {
+    background: #e0f2fe;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.contactDiv2 {
+    background: #e0f2fe;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contactDiv1:hover,.contactDiv2:hover {
+    cursor: pointer;
+}
+
+.contactImg {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+/* footer section*/
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #313848;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
